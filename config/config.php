@@ -1,9 +1,9 @@
 <?php
-$db_host = 'localhost';
-$db_port = '5432';
-$db_name = 'resume_site';
-$db_user = 'hubert';
-$db_pass = 'xcd2_baconpancakes00';
+$db_host = 
+$db_port = 
+$db_name = 
+$db_user = 
+$db_pass = 
 
 try {
     $pdo = new PDO("pgsql:host=$db_host;port=$db_port;dbname=$db_name", $db_user, $db_pass);
@@ -12,3 +12,4 @@ try {
     die("Connection failed: " . $e->getMessage());
 }
 ?>
+
