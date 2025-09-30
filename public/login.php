@@ -1,5 +1,5 @@
 <?php
-require 'config.php';
+require_once '../config/config.php';
 session_start();
 $errors = [
     'username' => [],
@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
   <meta charset="utf-8">
   <title>Login</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body class="login-page">
   <div class="card">

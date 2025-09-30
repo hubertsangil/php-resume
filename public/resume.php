@@ -88,7 +88,7 @@ $projects = [
 <head>
   <meta charset="UTF-8">
   <title><?php echo $name; ?> - Resume</title>
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
 </head>
@@ -99,7 +99,7 @@ $projects = [
     </form>
   <div class = "resume-page">
   <div class="profile">
-    <img src="assets/images/profile.png" alt="Profile Picture" class="profile-pic">
+    <img src="../assets/images/profile.png" alt="Profile Picture" class="profile-pic">
     <div class="profile-info">
       <div class="profile-details">
         <h1><?php echo $name; ?></h1>
@@ -123,7 +123,7 @@ $projects = [
     </svg>
     GitHub
     </a>
-      <a href="public/hubertsangil_resume.pdf" download class="resume-button">
+      <a href="../public/hubertsangil_resume.pdf" download class="resume-button">
       Download Resume
     </a>
     </div>

@@ -1,9 +1,9 @@
 <?php
-$db_host = // add credentials;
-$db_port = // add credentials;
-$db_name = // add credentials;
-$db_user = // add credentials;
-$db_pass = // add credentials;
+$db_host = 'localhost';
+$db_port = '5432';
+$db_name = 'resume_site';
+$db_user = 'hubert';
+$db_pass = 'xcd2_baconpancakes00';
 
 try {
     $pdo = new PDO("pgsql:host=$db_host;port=$db_port;dbname=$db_name", $db_user, $db_pass);
